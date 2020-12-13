@@ -1,6 +1,15 @@
 # ModularPractices
 Exercise various Modular strategies
 
+### Phone & Tablet Module
+```
+// navigate to feature module activity
+fun onClickBtnPhone() {
+        val intent = Intent()
+        intent.setClassName("com.ctyeung.phonemodule", "com.ctyeung.phonemodule.MyPhoneModuleActivity")
+        startActivity(intent)
+    }
+```
 
 # References
 
