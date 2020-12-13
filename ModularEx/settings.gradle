@@ -1,0 +1,4 @@
+include ':modularex'
+include ':phonemodule'
+include ':app'
+rootProject.name = "ModularEx"
