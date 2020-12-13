@@ -3,7 +3,6 @@ Exercise various Modular strategies
 
 ### Phone & Tablet Module
 
-Using Gradle plugin Quadrant <sup>[1]</sup> to navigate between feature module. \
 <img width="200" src="https://user-images.githubusercontent.com/1282659/102001388-76845d80-3cb7-11eb-8406-6646d3b0325a.png">
  
 Fully qualified path is required to define the activity.
@@ -29,3 +28,6 @@ https://proandroiddev.com/easy-navigation-in-a-multi-module-android-project-2374
 
 2. Gradle Dependency Management: Using Gradle Extra Properties (ext), Sam Edwards (manage common dependencies in modules) \
 https://handstandsam.com/2018/02/11/kotlin-buildsrc-for-better-gradle-dependency-management/
+
+3. Gradle Build Experiment by Nikita Kozlov \
+https://github.com/NikitaKozlov/GradleBuildExperiment/tree/3+1modules
