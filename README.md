@@ -3,7 +3,7 @@ Exercise various Modular strategies
 
 ### Phone & Tablet Module
 
-ModularEx Project using Gradle plugin, Quadrant <sup>[1]</sup> so there is no module dependencies.
+ModularEx Project using Gradle plugin, Quadrant <sup>[1]</sup> so there is no module dependencies. \
 <img width="200" src="https://user-images.githubusercontent.com/1282659/102001388-76845d80-3cb7-11eb-8406-6646d3b0325a.png">
  
 Fully qualified path is required to define the activity.
