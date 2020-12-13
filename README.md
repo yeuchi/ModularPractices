@@ -26,3 +26,6 @@ fun onClickBtnPhone() {
 
 1. Easy navigation in a multi-module Android project by Gael Marhic, April 7, 2020 \
 https://proandroiddev.com/easy-navigation-in-a-multi-module-android-project-2374ecbaa0ae
+
+2. Gradle Dependency Management: Using Gradle Extra Properties (ext), Sam Edwards \
+https://caster.io/lessons/gradle-dependency-management-using-gradle-extra-properties-ext?autoplay=true
