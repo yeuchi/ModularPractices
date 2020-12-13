@@ -18,6 +18,10 @@ fun onClickBtnPhone() {
 ```
 <img width="200" src="https://user-images.githubusercontent.com/1282659/102001391-78e6b780-3cb7-11eb-8847-2b5068bfe811.png"> <img width="200" src="https://user-images.githubusercontent.com/1282659/102001393-7a17e480-3cb7-11eb-9403-311ff3c357ac.png">
 
+# Android Studio
+
+<img width="467" alt="Screen Shot 2020-12-12 at 8 24 54 PM" src="https://user-images.githubusercontent.com/1282659/102001490-7042b100-3cb8-11eb-8512-b2536c637f15.png">
+
 # References
 
 1. Easy navigation in a multi-module Android project by Gael Marhic, April 7, 2020 \ 
