@@ -2,6 +2,11 @@
 Exercise various Modular strategies
 
 ### Phone & Tablet Module
+
+<img width="200" src="https://user-images.githubusercontent.com/1282659/102001391-78e6b780-3cb7-11eb-8847-2b5068bfe811.png"> <img width="200" src="https://user-images.githubusercontent.com/1282659/102001393-7a17e480-3cb7-11eb-9403-311ff3c357ac.png">
+
+Using Gradle plugin Quadrant <sup>[1]</sup> to navigate between feature module.
+
 ```
 // navigate to feature module activity
 fun onClickBtnPhone() {
@@ -10,6 +15,7 @@ fun onClickBtnPhone() {
         startActivity(intent)
     }
 ```
+<img width="200" src="https://user-images.githubusercontent.com/1282659/102001388-76845d80-3cb7-11eb-8406-6646d3b0325a.png">
 
 # References
 
