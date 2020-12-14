@@ -32,3 +32,6 @@ https://handstandsam.com/2018/02/11/kotlin-buildsrc-for-better-gradle-dependency
 
 3. Gradle Build Experiment by Nikita Kozlov \
 https://github.com/NikitaKozlov/GradleBuildExperiment/tree/3+1modules
+
+4. Overview of play feature delivery - android developer \
+https://developer.android.com/guide/app-bundle/play-feature-delivery
