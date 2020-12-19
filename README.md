@@ -35,3 +35,7 @@ https://github.com/NikitaKozlov/GradleBuildExperiment/tree/3+1modules
 
 4. Overview of play feature delivery - android developer \
 https://developer.android.com/guide/app-bundle/play-feature-delivery
+
+5. Another Navigation in Android Multi Module Architecture by Can Uludağ, April 19, 2020 \
+https://medium.com/swlh/another-navigation-in-multi-module-architecture-1d4945c1fed0
+
