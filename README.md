@@ -20,7 +20,7 @@ dependencies {
 ````
 
 ##### FeatureModuleA
-This is a great demonstration of 'feature' modularization. \ 
+This is a great demonstration of 'feature' modularization.\
 One activity / viewmodel / layout is encapsulated. \
 Again, there is a consolidation of common dependencies by reference of core. 
 
