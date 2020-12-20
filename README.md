@@ -2,7 +2,7 @@
 Exercise various Modular strategies
 
 ### Android Dynamic Module (split-apk)
-<img width="200" src="https://user-images.githubusercontent.com/1282659/102719811-dd0c0b80-42b5-11eb-8aa1-d0f6f51d5379.png"> <img width="200" src="https://user-images.githubusercontent.com/1282659/102719813-df6e6580-42b5-11eb-88c4-549668efe1b4.png">
+<img width="200" src="https://user-images.githubusercontent.com/1282659/102719813-df6e6580-42b5-11eb-88c4-549668efe1b4.png"> <img width="200" src="https://user-images.githubusercontent.com/1282659/102719811-dd0c0b80-42b5-11eb-8aa1-d0f6f51d5379.png"> 
 
 Deepanshu <sup>[6]</sup> provides a excellent simple demonstration of dynamic module or split-apk. \
 There are two modules: app -> dynamicfeature both producing apk artifacts. \
@@ -16,8 +16,8 @@ fun startDynamicModule() {
 }
 ````
 
-For older API, multiple apks are merged into one at install-time.
-<img width="200" src="https://user-images.githubusercontent.com/1282659/102719819-e2695600-42b5-11eb-9de1-f810d5f3157a.png">
+For older API, multiple apks are merged into one at install-time. \
+<img width="400" src="https://user-images.githubusercontent.com/1282659/102719819-e2695600-42b5-11eb-9de1-f810d5f3157a.png">
 
 ### Android Library (aar)
 
