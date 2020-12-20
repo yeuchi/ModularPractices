@@ -1,6 +1,24 @@
 # ModularPractices
 Exercise various Modular strategies
 
+### Android Dynamic Module (split-apk)
+<img width="200" src="https://user-images.githubusercontent.com/1282659/102719813-df6e6580-42b5-11eb-88c4-549668efe1b4.png"> <img width="200" src="https://user-images.githubusercontent.com/1282659/102719811-dd0c0b80-42b5-11eb-8aa1-d0f6f51d5379.png"> 
+
+Deepanshu <sup>[6]</sup> provides a excellent simple demonstration of dynamic module or split-apk. \
+There are two modules: app -> dynamicfeature both producing apk artifacts. \
+To navigate to an activity not defined in app manifest, we have to define intent with explicity package name path.
+
+````
+fun startDynamicModule() {
+    val intent = Intent()
+    intent.setClassName("com.ctyeung.dynamicmoduleex", "com.ctyeung.dynamicfeature.DynamicActivity")
+    startActivity(intent)
+}
+````
+
+For older API, multiple apks are merged into one at install-time. \
+<img width="400" src="https://user-images.githubusercontent.com/1282659/102719819-e2695600-42b5-11eb-9de1-f810d5f3157a.png">
+
 ### Android Library (aar)
 
 A feature module (UI content) can encapsulated in an Android Library for static build. \
@@ -85,3 +103,5 @@ https://developer.android.com/guide/app-bundle/play-feature-delivery
 5. Another Navigation in Android Multi Module Architecture by Can Uludağ, April 19, 2020 \
 https://medium.com/swlh/another-navigation-in-multi-module-architecture-1d4945c1fed0
 
+6. Android Dynamic Feature Modules : The Future by Deepanshu, September 3, 2018 \
+https://medium.com/mindorks/dynamic-feature-modules-the-future-4bee124c0f1#:~:text=To%20add%20a%20dynamic%20feature,Feature%20Module%20and%20click%20Next.
