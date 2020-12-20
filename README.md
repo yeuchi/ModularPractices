@@ -1,5 +1,7 @@
 # ModularPractices
-Exercise various Modular strategies
+Exercise various Modular strategies. \
+In Udacity 'Build-it-Bigger'<sup>[7]</sup> project, I learned to build library and Google-Cloud-End-Point (GCE) for modular Android development.
+Below are 2020 common methods: aar, split-apk, etc.
 
 ### Android Dynamic Module (split-apk)
 <img width="200" src="https://user-images.githubusercontent.com/1282659/102719813-df6e6580-42b5-11eb-88c4-549668efe1b4.png"> <img width="200" src="https://user-images.githubusercontent.com/1282659/102719811-dd0c0b80-42b5-11eb-8aa1-d0f6f51d5379.png"> 
@@ -105,3 +107,6 @@ https://medium.com/swlh/another-navigation-in-multi-module-architecture-1d4945c1
 
 6. Android Dynamic Feature Modules : The Future by Deepanshu, September 3, 2018 \
 https://medium.com/mindorks/dynamic-feature-modules-the-future-4bee124c0f1#:~:text=To%20add%20a%20dynamic%20feature,Feature%20Module%20and%20click%20Next.
+
+7. Udacity Build-It-Bigger project by Chi Yeung, May 28, 2018 \ 
+https://github.com/yeuchi/BuildItBigger
