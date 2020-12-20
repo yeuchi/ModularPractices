@@ -1,6 +1,50 @@
 # ModularPractices
 Exercise various Modular strategies
 
+### Android Library (aar)
+
+A feature module (UI content) can encapsulated in an Android Library for static build.
+Mr. Can Uludağ <sup>[5]</sup> provides an excellent demo with the following make-up.
+
+application -> FeatureModuleA -> core
+<img width="200" src="https://user-images.githubusercontent.com/1282659/102717623-1f7b1b80-42a9-11eb-8caf-9f26437e0a16.png"> <img width="200" src="https://user-images.githubusercontent.com/1282659/102717624-2013b200-42a9-11eb-974e-5d33021bc73c.png">
+
+##### Application 
+This is a basic phone app with 1 activity / viewmodel and Koin for dependency injection.
+There is a notable consolidation of common dependencies by reference of FeatureModuleA.
+
+````
+dependencies {
+    implementation project(':FeatureModuleA')
+}
+````
+
+##### FeatureModuleA
+This is a great demonstration of 'feature' modularization.  
+One activity / viewmodel / layout is encapsulated.
+Again, there is a consolidation of common dependencies by reference of core.
+
+````
+dependencies {
+    implementation project(':core')
+}
+````
+
+NOTE: activity must be defined in manifest to be resolvable.
+````
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ctyeung.featuremodulea">
+    <application>
+        <activity android:name=".FeatureScreenAActivity"></activity>
+    </application>
+</manifest>
+````
+
+##### core
+Common dependencies are provided in this library.
+I am surprise to find FeatureScreenARouteContract here as well.
+
+
 ### Phone & Tablet Module
 
 ModularEx Project using Gradle plugin, Quadrant <sup>[1]</sup> so there is no module dependencies. \
@@ -21,6 +65,7 @@ fun onClickBtnPhone() {
 # Android Studio
 
 <img width="467" alt="Screen Shot 2020-12-12 at 8 24 54 PM" src="https://user-images.githubusercontent.com/1282659/102001490-7042b100-3cb8-11eb-8512-b2536c637f15.png">
+
 
 # References
 
