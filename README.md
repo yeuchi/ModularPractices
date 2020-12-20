@@ -18,7 +18,7 @@ fun startDynamicModule() {
 }
 ````
 
-For older API, multiple apks are merged into one at install-time. \
+For Android API 19 or older, multiple apks are merged into one at install-time. \
 <img width="400" src="https://user-images.githubusercontent.com/1282659/102719819-e2695600-42b5-11eb-9de1-f810d5f3157a.png">
 
 ### Android Library (aar)
