@@ -1,0 +1,4 @@
+include ':FeatureModuleA'
+include ':core'
+include ':app'
+rootProject.name = "LearnFromDemo"

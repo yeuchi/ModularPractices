@@ -1,3 +1,0 @@
-include ':featuremodule'
-include ':app'
-rootProject.name = "AppModulesEx"
